@@ -14,4 +14,5 @@ public class ProductMapper {
     public static Product toEntity(ProductDTO productDTO) {
         return new Product(null, productDTO.getName(), productDTO.getDescription(), productDTO.getPrice());
     }
+
 }
